@@ -67,3 +67,5 @@ def get_new_token():
     if(token['expires_at'] - now < 60):
         auth = create_authenticator()
         token = auth.refresh_access_token(token['refresh-token'])
+        
+    return token
