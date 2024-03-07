@@ -1,0 +1,35 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+.body {
+    background-color: rgb(17, 17, 17);
+    margin: 0 0 100px;
+}
+.page-top {
+    background-image: linear-gradient(rgb(36, 36, 36), rgb(17, 17, 17));
+}
+.top-elements {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+
+}
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(232, 243, 253);
+}
+.footer {
+    background-image: linear-gradient(rgb(17, 17, 17), rgb(36, 36, 36));
+    color: rgb(232, 243, 253);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+.footer-elements {
+    position: relative;
+    justify-self: baseline;
+}
